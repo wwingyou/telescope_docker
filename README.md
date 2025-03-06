@@ -2,6 +2,25 @@
 
 A neovim docker plugin powered by **Telescope**
 
+## Dependencies
+
+- [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)
+
+## Setup
+
+### Lazy.nvim
+```lua
+return {
+  'wwingyou/telescope_docker',
+  dependencies = {
+    'nvim-telescope/telescope.nvim',
+  },
+  config = function ()
+    -- Your configuration goes here...
+  end
+}
+```
+
 ## Usage
 
 ```lua
